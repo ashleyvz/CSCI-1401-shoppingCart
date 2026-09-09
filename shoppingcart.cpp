@@ -97,9 +97,9 @@ int main()
     transform(p5.begin(), p5.end(), p5.begin(), ::toupper);
     cout << left << setw(15) << p5 << right << setw(12) << "$" << setw(7) << price5 << endl;
 
-    cout << endl << right << setw(19) << "SUBTOTAL" << setw(8) << "$" << setw(8) << subtotal << endl;
-    cout << right << setw(14) << "TAX" << setw(13) << "$"  << setw(8) << tax << endl;
-    cout << right << setw(16) << "TOTAL" << setw(11) << "$" << setw(8) << total << endl;
+    cout << endl << right << setw(19) << "SUBTOTAL" << setw(8) << "$" << setw(7) << subtotal << endl;
+    cout << right << setw(14) << "TAX" << setw(13) << "$"  << setw(7) << tax << endl;
+    cout << right << setw(16) << "TOTAL" << setw(11) << "$" << setw(7) << total << endl;
     //cout << setw(14) << "TOTAL" << right << setw(11) << "$" << setw(8) << total;
     cout << endl << right << setw(32) << "*** CUSTOMER COPY ***" << endl;
     
