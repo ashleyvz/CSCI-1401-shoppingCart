@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ashley/Documents/CSCI-1401-shoppingCart/shoppingcart'
+relocations:     []
+...
